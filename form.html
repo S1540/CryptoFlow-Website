@@ -351,25 +351,5 @@
         </div>
       </div>
     </div>
-
-    <script>
-      document
-        .getElementById("tradingForm")
-        .addEventListener("submit", function (e) {
-          e.preventDefault();
-
-          const formData = {
-            fullname: this.fullname.value,
-            email: this.email.value,
-            phone: this.phone.value,
-            experience: this.experience.value,
-            investment: this.investment.value,
-          };
-
-          console.log("Form Data:", formData);
-          alert("Thank you for signing up! Our team will contact you shortly.");
-          this.reset();
-        });
-    </script>
   </body>
 </html>
